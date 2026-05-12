@@ -10,5 +10,17 @@
         "username": "vali",
         "password_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
         "full_name": "Vlai"
+    },
+    {
+        "id": "1aecd888-4d99-11f1-8597-3420036ce430",
+        "username": "ali",
+        "password_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+        "full_name": "Asad"
+    },
+    {
+        "id": "72b84976-4e0c-11f1-a973-3420036ce430",
+        "username": "asad",
+        "password_hash": "536567b9a9c52a330727e5108c7dddc62f7175f9fc2508ac06864f642aaaafe9",
+        "full_name": "Ade"
     }
 ]

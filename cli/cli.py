@@ -25,8 +25,10 @@ class Library:
                     self.book_handler.show_all_book()
                 elif option == "3":
                     self.book_handler.borrow_book(self.auth_handler.current_user)
+                elif option == "4":
+                    self.book_handler.return_book(self.auth_handler.current_user)
                 else:
-                    print("Bunday menu yoq")
+                    print("Bunday menu yo'q")
             else:
                 self.menu.print_main_menu()
 
@@ -36,6 +38,7 @@ class Library:
                 elif option == "2":
                     self.auth_handler.login()
                 elif option == "0":
-                    self.auth_handler.logout()
+                    print("Dasturdan chiqildi.")
+                    break
                 else:
-                    print("Bunday menu yoq")
+                    print("Bunday menu yo'q")
